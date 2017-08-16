@@ -21,31 +21,30 @@ permalink: /contact/
 <section id="contact-form">
   <div class="container">
     <div class="row">
+      <form action="https://formspree.io/bryce@millcreekagency.com"
+      method="POST">
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
             <div class="form-group">
-              <input type="text" id="contact-name" class="form-control" placeholder="Your Name">
+              <input type="text" id="contact-name" name="name" class="form-control" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input id="contact-address" type="text"  class="form-control" placeholder="Email Address">
+              <input id="contact-address" type="email"  name="_replyto" class="form-control" placeholder="Email Address">
             </div>
             <div class="form-group">
-              <input type="text" id="contact-subject" class="form-control"  placeholder="Subject">
+              <input type="text" id="contact-subject" name='_subject' class="form-control"  placeholder="Subject">
             </div>
-          </form>
         </div>
       </div>
       <div class="col-md-6 col-sm-12">
         <div class="block">
-          <form>
             <div class="form-group-2">
-              <textarea class="form-control" id="contact-body" rows="3" placeholder="Your Message"></textarea>
+              <textarea type="text" class="form-control" id="contact-body" rows="3" name="message" placeholder="Your Message"></textarea>
             </div>
-          </form>
-            <button class="btn btn-default"  id='contactButton'>Send Message</button>
+            <button type='submit' class="btn btn-default"  value='Send' id='contactButton'>Send Message</button>
         </div>
       </div>
+      </form>
     </div>
     <div id="contact-box" class="row">
       <div class="col-md-6 col-sm-12">
@@ -112,18 +111,3 @@ permalink: /contact/
     </div>
   </div>
 </section>
-<script>
-// Remove Spaces
-function htmlReady(string) {
-  return string.replace(/\//g,"&47").replace(/\?/g, "&#63").replace(/%/g,"&#37").replace(/ /g, "%20").replace(/>/g, "&gt;").replace(/</g, "&lt;").replace(/&/g, "%26");
-}
-
-// Mail
-document.getElementById('contactButton').onclick = function contactUs() {
-  console.log("It works");
-  var subject = htmlReady(document.getElementById('contact-subject').value);
-  var body = htmlReady("Message From "+document.getElementById('contact-name').value + " (" + document.getElementById('contact-address').value+") "+document.getElementById('contact-body').value);
-  window.open("mailto:info@millcreekagency.com?subject="+subject+"&body="+body);
-}
-
-</script>
