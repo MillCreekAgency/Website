@@ -145,6 +145,13 @@ font header .navbar-default .navbar-nav li a:hover {
   line-height: 27px;
   margin: 0;
 }
+.textbutton {
+    padding-top: 10px;
+    border: none;
+    border:none;
+    text-decoration: none;
+    display: inline-block;
+}
 #intro .block p {
   color: #7B7B7B;
   padding-top: 20px;

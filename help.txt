@@ -1,0 +1,13 @@
+<li>Kingstone Insurance<a href="tel:800-364-7045"><i class="fa fa-phone"></i></a></li>
+<li>Narraganset Bay Insurance<a href="tel:800-343-3375"><i class="fa fa-phone"></i></a></li>
+<li>Ocean Harbor Insurance<a href="tel:800-585-0500"><i class="fa fa-phone"></i></a></li>
+<li>National General Insurance<a href="tel:877-849-9022"><i class="fa fa-phone"></i></a></li>
+<li>Hartford Insurance<a href="tel:800-553-1710"><i class="fa fa-phone"></i></a></li>
+<li>Mapfre Insurance<a href="tel:800-562-4517"><i class="fa fa-phone"></i></a></li>
+<li>Progressive Insurance<a href="tel:800-274-4499"><i class="fa fa-phone"></i></a></li>
+<li>Travelers Insurance<a href="tel:800-252-4633"><i class="fa fa-phone"></i></a></li>
+<li>US Coastal<a href="tel:866-632-2003"><i class="fa fa-phone"></i></a></li>
+<li>Wright Flood<a href="tel:800-725-9472"><i class="fa fa-phone"></i></a></li>
+<li>Merchants Insurance<a href="tel:800-952-5246"><i class="fa fa-phone"></i></a></li>
+<li>Interboro Insurance<a href="tel:516-799-8222"><i class="fa fa-phone"></i></a></li>
+<li>Safeco Insurance<a href="tel:800-332-3226"><i class="fa fa-phone"></i></a></li>
