@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: Mill Creek Insurance Agency
 subtitle: "An insurance agency based in Long Island, New York"
-url: "http://www.millcreekagency.com" # the base hostname & protocol for your site
+url: "https://www.millcreekagency.com" # the base hostname & protocol for your site
 # baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
 baseurl: ""
 cover: ""
