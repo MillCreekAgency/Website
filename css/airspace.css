@@ -64,6 +64,13 @@ a:active {
 /*--
 	Header Start
 --*/
+
+#companies {
+	padding-top: 3%;
+}
+.claim-phone {
+	color: black;
+}
 header {
   background: #fff;
   padding: 20px 0;
