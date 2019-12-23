@@ -29,3 +29,8 @@ markdown: kramdown
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
+defaults:
+  - scope:
+      path: "assets/pdfs"
+    values:
+      pdf: true
