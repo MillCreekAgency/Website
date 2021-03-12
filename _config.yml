@@ -21,6 +21,7 @@ url: "https://www.millcreekagency.com" # the base hostname & protocol for your s
 baseurl: ""
 cover: ""
 logo: ""
+cyber_program_url: "https://github.com/MillCreekAgency/Compliance/raw/master/documents/policy.pdf"
 
 # Build settings
 markdown: kramdown

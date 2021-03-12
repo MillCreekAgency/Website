@@ -10,10 +10,7 @@
             <!--<li><a href="#">How it works</a></li>
             <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
             <li><a href="#">Terms</a></li>-->
-            {% assign files = site.static_files | where: 'pdf', true %}
-            {% for pdf in files %}
-              <li><a href="{{ pdf.path }}">Cyberprogram</li>
-            {% endfor %}
+	    <li><a href="{{ site.cyber_program_url }}">NYS Cyber Compilance Policy</li>
           </ul>
         </div>
         <p>Copyright &copy; Design &amp; Developed by <a href="http://www.themefisher.com">Themefisher</a>. All rights reserved.</p>
