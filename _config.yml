@@ -21,7 +21,7 @@ url: "https://www.millcreekagency.com" # the base hostname & protocol for your s
 baseurl: ""
 cover: ""
 logo: ""
-cyber_program_url: "https://github.com/MillCreekAgency/Compliance/raw/master/documents/policy.pdf"
+cyber_program_url: "/assets/CyberPolicy.pdf"
 
 # Build settings
 markdown: kramdown
@@ -32,6 +32,9 @@ markdown: kramdown
 # Category descriptions (for archive pages)
 defaults:
   - scope:
-      path: "assets/pdfs"
+      path: "assets/"
     values:
       pdf: true
+
+plugins:
+  - jekyll-redirect-from
