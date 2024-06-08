@@ -183,7 +183,7 @@ font header .navbar-default .navbar-nav li a:hover {
 #service .service-item {
   padding-bottom: 30px;
 }
-#service .service-item i {
+#service .service-item ion-icon {
   font-size: 60px;
   color: #4A4656;
 }
@@ -211,7 +211,8 @@ font header .navbar-default .navbar-nav li a:hover {
   text-align: center;
   color: #fff;
 }
-#call-to-action:before {
+
+#call-to-action::before {
   content: "";
   position: absolute;
   left: 0;
@@ -222,7 +223,16 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 100%;
   background: #1d192c;
   opacity: 0.8;
+      z-index: 1;
 }
+
+
+#call-to-action > .container {
+    z-index: 100;
+    position: relative;
+}
+
+
 #call-to-action h2 {
   padding-bottom: 20px;
   line-height: 33px;
@@ -266,6 +276,28 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
 }
+
+
+#feature::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: #1d192c;
+  opacity: 0.5;
+  z-index: 1;
+}
+
+#feature .container {
+  z-index: 100;
+  position: relative;
+}
+
+
 #feature h2 {
   font-size: 28px;
   font-weight: 600;
@@ -391,7 +423,14 @@ font header .navbar-default .navbar-nav li a:hover {
   height: 100%;
   background: linear-gradient(to left, #928dab, #1f1c2c 70%);
   opacity: 0.8;
+  z-index: 1;
 }
+
+#global-header .container {
+  position: relative;
+  z-index: 100;
+}
+
 #global-header .block {
   color: #E3E3E4;
   margin: 0 auto;
@@ -699,6 +738,19 @@ font header .navbar-default .navbar-nav li a:hover {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
 }
+
+#contact-form ion-icon {
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contact-form #contact-box p {
+    font-size: 35px;
+}
+
+
+
 /*--
 	wrapper-contact Start
 --*/
@@ -824,3 +876,8 @@ footer .footer-manu ul li a:hover {
 /*---------------------------
 Cutsom CSS
 -----------------------*/
+
+.carrier-logo {
+  width: 200px;
+  height: 200px;
+}

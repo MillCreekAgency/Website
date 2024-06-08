@@ -1,58 +1,33 @@
 <!-- Header Start -->
 <header>
-<div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <!-- header Nav Start -->
-      <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">
-              <img src="{{ site.baseurl }}/img/logo.png" alt="Logo">
-            </a>
-          </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+	<nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+	        <a class="navbar-brand" href="index.html">
+	           <img class="mr-3" src="{{ site.baseurl }}/img/logo.png" alt="Logo">
+          </a>
+            <!-- <div class="navbar-header"> -->
+              <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false">
+		<span class="navbar-toggler-icon"></span>
+	      </button>
+
+            <!-- </div> -->
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ site.baseurl }}/">Home</a></li>
-                <!--<li><a href="{{ site.baseurl }}/work">Work</a></li>
-                <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-                <li><a href="#">Service</a></li>-->
-                <li><a href="{{ site.baseurl }}/contact">Contact</a></li>
-                <li><a href="tel:+16317514653"><i class="fa fa-phone"></i></a></li>
-		<li><a class="collapsed" data-toggle="collapse" data-target="#companies">Claims</a></li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="nav navbar-nav ms-auto">
+                <li class="nav-item">
+		  <a class="nav-link {% if page.permalink == '/' %}active{% endif %}" href="{{ site.baseurl }}/">Home</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link {% if page.permalink == '/carriers/' %}active {% endif %}" href="{{ site.baseurl }}/carriers">Report Claim/Pay Online</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link {% if page.permalink == '/contact/' %} active {% endif %}" href="{{ site.baseurl }}/contact">Contact Us</a>
+		</li>
 	      </ul>
 	    </div>
-                    <div class="container collapse" id="companies">
-			<div class="row">
-			      <div class="col-sm-4 text-center">
-				<p>Hartford Insurance  <a class="claim-phone" href="tel:800-553-1710"><i class="fa fa-phone"></i></a></p>
-				<p>Mapfre Insurance  <a class="claim-phone" href="tel:800-562-4517"><i class="fa fa-phone"></i></a></p>
-				<p>National General Insurance  <a class="claim-phone" href="tel:877-849-9022"><i class="fa fa-phone"></i></a></p>
-				<p>Safeco Insurance  <a class="claim-phone" href="tel:800-332-3226"><i class="fa fa-phone"></i></a></p>
-				<p>Wright Flood  <a class="claim-phone" href="tel:800-725-9472"><i class="fa fa-phone"></i></a></p>
-			      </div>
-			      <div class="col-sm-4 text-center">
-				<p>Interboro Insurance  <a class="claim-phone" href="tel:516-799-8222"><i class="fa fa-phone"></i></a></p>
-				<p>Merchants Insurance  <a class="claim-phone" href="tel:800-952-5246"><i class="fa fa-phone"></i></a></p>
-				<p>Ocean Harbor Insurance  <a class="claim-phone" href="tel:800-585-0500"><i class="fa fa-phone"></i></a></p>
-				<p>Travelers Insurance  <a class="claim-phone" href="tel:800-252-4633"><i class="fa fa-phone"></i></a></p>
-			      </div>
-			      <div class="col-sm-4 text-center">
-				<p>Kingstone Insurance  <a class="claim-phone" href="tel:800-364-7045"><i class="fa fa-phone"></i></a></p>
-				<p>Narraganset Bay Insurance  <a class="claim-phone" href="tel:800-343-3375"><i class="fa fa-phone"></i></a></p>
-				<p>Progressive Insurance  <a class="claim-phone" href="tel:800-274-4499"><i class="fa fa-phone"></i></a></p>
-				<p>Us Coastal  <a class="claim-phone" href="tel:866-632-2003"><i class="fa fa-phone"></i></a></p>
-			      </div>
-			  </div>
-			</div>
             <!-- /.navbar-collapse -->
           </div><!-- /.container-fluid -->
         </nav>

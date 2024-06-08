@@ -15,9 +15,8 @@ keep_files:
 
 # Site settings
 title: Mill Creek Insurance Agency
-subtitle: "An insurance agency based in Long Island, New York"
-url: "https://www.millcreekagency.com" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+subtitle: "New York State Insurnace Agency"
+url: "https://www.millcreekagency.com"
 baseurl: ""
 cover: ""
 logo: ""
@@ -25,9 +24,6 @@ cyber_program_url: "/assets/CyberPolicy.pdf"
 
 # Build settings
 markdown: kramdown
-
-# Google analytics
-# ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
 defaults:
